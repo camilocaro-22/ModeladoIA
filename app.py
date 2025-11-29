@@ -6,7 +6,7 @@ import numpy as np
 app = Flask(__name__)
 
 # Cargar el modelo al iniciar la aplicación
-with open('modelo.pkl', 'rb') as archivo:
+with open('modelo_ransomware_rf_balanceado.pkl', 'rb') as archivo:
     modelo = pickle.load(archivo)
 
 
